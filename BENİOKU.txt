@@ -1,0 +1,17 @@
+1-Projeyi açtýktan sonra BeyazEþya.WFA'ya sað týklayýp "Set as StartUp Project" i seçiyoruz.
+
+2-Projeyi çalýþtýrýyoruz.Ýþlemler den Satýþ'ý seçiyoruz.
+
+3-HazýrData kullandýðýmdan Kategori ve Ürünlerin Comboboxlarý dolu olarak geliyor.(ÝÞLEMLER -> Urun ekle formundan yeni ürün ve kategori ekleyebiliriz.)
+
+4-Kategori ve Ürünü seçip Müþteri Ekle butunona týklýyoruz.
+
+5-Müþteri Bilgileri Paneli geliyor.Buradan bilgileri doldurup Sat butonuna basýyoruz.(4 ve 5. maddeleri tekrar yapýp birkaç farklý müþteri ekeleyebiliriz.)
+Not:Müþteri eklerken Müþteri formu kapalý olmalý.
+
+6-ÝÞLEMLER den MÜÞTERÝ formuna týklýyoruz.
+
+7-Müþteri Adýný seçince o müþteriye ait bilgiler DataGridView da listeleniyor.
+
+8-Taksit hücresine týkladýðýmýzda taksit paneli açýlýyor.Burda Evet'i týkladýðýmýzda Aylýk miktar hücresi yeþil renk oluyor.
+
