@@ -43,8 +43,8 @@
             this.cmbMarka = new System.Windows.Forms.ComboBox();
             this.cmbUrunler = new System.Windows.Forms.ComboBox();
             this.pnlUrun = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.pnlMusteriBilgi.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudTaksit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudPesinat)).BeginInit();
@@ -66,6 +66,7 @@
             this.pnlMusteriBilgi.Name = "pnlMusteriBilgi";
             this.pnlMusteriBilgi.Size = new System.Drawing.Size(485, 221);
             this.pnlMusteriBilgi.TabIndex = 9;
+           
             // 
             // nudTaksit
             // 
@@ -202,15 +203,6 @@
             this.pnlUrun.Size = new System.Drawing.Size(634, 126);
             this.pnlUrun.TabIndex = 10;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Kategori";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -219,6 +211,15 @@
             this.label2.Size = new System.Drawing.Size(37, 13);
             this.label2.TabIndex = 10;
             this.label2.Text = "Marka";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(15, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 13);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Kategori";
             // 
             // Satis
             // 

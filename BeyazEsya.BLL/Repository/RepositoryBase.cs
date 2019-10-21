@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BeyazEsya.BLL.Repository
 {
-    public class RepositoryBase<T, TId> where T : class
+    public class RepositoryBase<T, TId> where T : class//T class olabilir sadece
     {
         protected internal static MyContext db;
         protected RepositoryBase()

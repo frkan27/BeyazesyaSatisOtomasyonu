@@ -95,7 +95,8 @@ namespace BeyazEsya.WFA
        //???? paremetre olayını sor...
         private void FormuTemizle(Control parent)
         {
-            foreach (Control control in parent.Controls)//formun içinde control tipinde dönüyoruz.
+            foreach (Control control in parent.Controls)//panel içinde dolaşıyoruz. controls içerdeki textbox lar dolaşıyoruz.
+                //formun içinde control tipinde dönüyoruz.
             {
                 if (control is TextBox)  
                     control.Text = string.Empty;
@@ -110,5 +111,7 @@ namespace BeyazEsya.WFA
             }
 
         }
+
+       
     }
 }

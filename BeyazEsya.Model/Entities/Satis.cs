@@ -16,7 +16,7 @@ namespace BeyazEsya.Model.Entities
         public int MusteriId { get; set; }
 
         [Key]
-        [Column(Order = 2)]
+        [Column(Order = 2)]//compozite keyden dolayı...iki farklı keyi birleştirince oluyor
         public int UrunId { get; set; }
 
 
